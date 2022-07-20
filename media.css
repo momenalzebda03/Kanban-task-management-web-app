@@ -1,0 +1,1802 @@
+/* مقاسات الشاشة هي lg and md and sm and xs */
+
+/* هزا شاشة ال md */
+
+@media (max-width: 1200px) {
+    .body {
+        background-color: rgba(0, 0, 0, 0.767);
+    }
+
+    .body1 {
+        background-color: white;
+    }
+
+    .body2 {
+        background-color: rgba(0, 0, 0, 0.767);
+        display: none;
+    }
+
+    .kanban {
+        color: red;
+        margin-top: -10%;
+        margin-left: 2%;
+        border-width: 0px 0px 0px 8px;
+        border-style: solid;
+        border-color: blueviolet;
+        padding-left: 1%;
+    }
+
+    .kanban1 {
+        color: black;
+        margin-top: -10%;
+        margin-left: 2%;
+        border-width: 0px 0px 0px 8px;
+        border-style: solid;
+        border-color: blueviolet;
+        padding-left: 1%;
+    }
+
+    .divfantasy {
+        color: #aaa;
+        margin-left: 3.5%;
+        margin-top: 2%;
+    }
+
+    .startimg {
+        margin-left: -2.5%;
+        margin-top: -7.5%;
+        width: 2%;
+    }
+
+    .rightfantasy1 {
+        margin-left: -4%;
+        height: 40px;
+        color: #aaa;
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+    }
+
+    .rightfantasy1:hover {
+        margin-left: -4%;
+        height: 40px;
+        color: white;
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+        background-color: rgba(0, 0, 255, 0.758);
+        width: 20%;
+        border-radius: 20%;
+    }
+
+    .rightfantasy2 {
+        margin-left: -4%;
+        height: 40px;
+        color: rgba(0, 0, 255, 0.844);
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+    }
+
+    .rightfantasy2:hover {
+        margin-left: -4%;
+        height: 40px;
+        color: white;
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+        background-color: rgba(0, 0, 255, 0.758);
+        width: 20%;
+        border-radius: 20%;
+    }
+
+    .imgplus {
+        margin-left: 1%;
+        width: 1%;
+    }
+
+    .imgplus1 {
+        margin-top: -6.5%;
+        margin-left: 74.6%;
+        width: 1%;
+    }
+
+    .hr {
+        width: 98.5%;
+        margin-left: -30.1%;
+        transform: rotate(90deg);
+        text-shadow: 2px 2px;
+    }
+
+    .hr1 {
+        width: 80.9%;
+        margin-top: -1%;
+        margin-left: 19.1%;
+    }
+
+    .picture {
+        padding-top: 0.5%;
+        width: 15%;
+        text-align: center;
+        background-color: black;
+        margin-top: 5%;
+        margin-left: -1%;
+        height: 40px;
+    }
+
+    .sanimg {
+        background-color: black;
+        margin-top: -1%;
+        margin-left: -38%;
+        height: 30px;
+        width: 30%;
+    }
+
+    .sanimg1 {
+        background-color: black;
+        margin-top: -1%;
+        margin-left: -60%;
+        height: 30px;
+        width: 20%;
+    }
+
+    .imgmoon {
+        position: absolute;
+        left: 13%;
+        background-color: black;
+        margin-top: -0.5%;
+        height: 40px;
+    }
+
+    .Hide {
+        margin-top: 0.4%;
+        margin-left: 5%;
+        color: #aaa;
+    }
+
+    .imghide {
+        width: 1%;
+        margin-top: -5.6%;
+        margin-left: 3.7%;
+    }
+
+    .platfrom {
+        font-size: 200%;
+        margin-top: 2%;
+        margin-left: 22%;
+        color: white;
+    }
+
+    .platfrom1 {
+        font-size: 200%;
+        margin-top: 2%;
+        margin-left: 22%;
+        color: black;
+    }
+
+    .ADD {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        text-align: center;
+        border-radius: 30%;
+        width: 17.5%;
+        background-color: blue;
+        margin-top: -3%;
+        margin-left: 74%;
+        color: white;
+    }
+
+    .img1 {
+        width: 1.5%;
+        margin-top: -10%;
+        margin-left: 93%;
+        color: white;
+    }
+
+    .divblack {
+        margin-top: -40%;
+        margin-left: 42%;
+        width: 40%;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.358);
+        display: none;
+    }
+
+    .new {
+        color: white;
+        position: absolute;
+        top: 15%;
+        left: 45%;
+    }
+
+    .text {
+        background-color: #aaa;
+        width: 180%;
+        height: 35px;
+    }
+
+    .text1 {
+        background-color: #aaa;
+        width: 180%;
+        height: 90px;
+    }
+
+    .text2 {
+        position: absolute;
+        top: 65%;
+        background-color: #aaa;
+        width: 180%;
+        height: 5%;
+    }
+
+    .imgplus2 {
+        margin-left: 55%;
+        margin-top: 10%;
+        width: 7%;
+    }
+
+    .Subtask {
+        text-align: center;
+        margin-top: -9%;
+        margin-left: 20%;
+        background-color: white;
+        color: blue;
+        width: 150%;
+        border-radius: 15%;
+    }
+
+    .createtaks {
+        width: 190%;
+        text-align: center;
+        margin-top: -14%;
+        margin-left: -12%;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 10%;
+        display: block;
+    }
+
+    .divblack1 {
+        margin-top: -42%;
+        margin-left: 42%;
+        width: 36%;
+        height: 600px;
+        background-color: rgba(0, 0, 0, 0.358);
+        display: none;
+    }
+
+    .research {
+        color: white;
+        position: absolute;
+        top: 15%;
+        left: 43%;
+        text-align: center;
+    }
+
+    .Weknow {
+        color: #aaa;
+        position: absolute;
+        top: 34%;
+        left: 44%;
+    }
+
+    .Subtasks {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 44%;
+    }
+
+    .research1 {
+        text-align: center;
+        height: 35px;
+        width: 30%;
+        padding-top: 8px;
+        color: #aaa;
+        position: absolute;
+        top: 55%;
+        left: 45%;
+        background-color: black;
+    }
+
+    .research2 {
+        text-align: center;
+        height: 35px;
+        width: 30%;
+        padding-top: 8px;
+        color: #aaa;
+        position: absolute;
+        top: 65%;
+        left: 45%;
+        background-color: black;
+    }
+
+    .research3 {
+        text-align: center;
+        color: white;
+        height: 55px;
+        width: 30%;
+        padding-top: 8px;
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 45%;
+        background-color: black;
+    }
+
+    .checkbox {
+        position: absolute;
+        top: 56%;
+        left: 43%;
+    }
+
+    .checkbox1 {
+        position: absolute;
+        top: 66%;
+        left: 43%;
+    }
+
+    .checkbox2 {
+        position: absolute;
+        top: 76%;
+        left: 43%;
+    }
+
+    .status {
+        position: absolute;
+        top: 75%;
+    }
+
+    .status1 {
+        color: white;
+        position: absolute;
+        top: 84%;
+        left: 45%;
+    }
+
+    .doing {
+        background-color: #aaa;
+        width: 25%;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+    }
+
+    .input-submit {
+        border-radius: 30%;
+        color: white;
+        background-color: orange;
+        position: absolute;
+        top: 90%;
+        left: 45%;
+    }
+
+    .input-submit:hover {
+        color: red;
+        transition: 0.5s;
+    }
+
+    .color {
+        border-radius: 40%;
+        background-color: aqua;
+        height: 5px;
+        width: 1%;
+        position: absolute;
+        left: 21%;
+        top: 18%;
+    }
+
+    .color1 {
+        border-radius: 40%;
+        background-color: blueviolet;
+        height: 5px;
+        width: 1%;
+        position: absolute;
+        left: 45%;
+        top: 18%;
+    }
+
+    .color2 {
+        border-radius: 40%;
+        background-color: greenyellow;
+        height: 5px;
+        width: 1%;
+        position: absolute;
+        left: 69%;
+        top: 18%;
+    }
+
+    .div-h3-p {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 20%;
+    }
+
+    .div-h3-p1 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 34%;
+    }
+
+    .div-h3-p2 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 49%;
+    }
+
+    .div-h3-p3 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 64%;
+    }
+
+    .div-h3-p4 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 20%;
+    }
+
+    .div-h3-p5 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 33%;
+    }
+
+    .div-h3-p6 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 46%;
+    }
+
+    .div-h3-p7 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 59%;
+    }
+
+    .div-h3-p8 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 72%;
+    }
+
+    .div-h3-p9 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        margin-left: 22%;
+        position: absolute;
+        top: 77.5%;
+    }
+
+    .div-h3-p10 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        position: absolute;
+        top: 19%;
+    }
+
+    .div-h3-p11 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        position: absolute;
+        top: 32%;
+    }
+
+    .div-h3-p12 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        position: absolute;
+        top: 45%;
+    }
+
+    .div-h3-p13 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        position: absolute;
+        top: 58%;
+    }
+
+    .div-h3-p14 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        position: absolute;
+        top: 71%;
+    }
+
+    .div-h3-p15 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        position: absolute;
+        top: 84%;
+    }
+
+    .div-h3-p16 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 17%;
+        position: absolute;
+        top: 78%;
+        left: 22%;
+    }
+
+    .Build {
+        font-size: 140%;
+        color: white;
+    }
+
+    .substasks {
+        color: #aaa;
+    }
+
+    .divdisplay1 {
+        margin-left: 23%;
+        display: block;
+    }
+
+    .divdisplay2 {
+        margin-left: 69%;
+        display: block;
+    }
+}
+
+/* هزا شاشة ال sm */
+
+@media (max-width: 800px) {
+    .body {
+        background-color: rgba(0, 0, 0, 0.767);
+    }
+
+    .body1 {
+        background-color: white;
+    }
+
+    .body2 {
+        background-color: rgba(0, 0, 0, 0.767);
+        display: none;
+    }
+
+    .kanban {
+        color: green;
+        margin-top: -10%;
+        margin-left: 2%;
+        border-width: 0px 0px 0px 8px;
+        border-style: solid;
+        border-color: blueviolet;
+        padding-left: 1%;
+        display: none;
+    }
+
+    .kanban1 {
+        color: black;
+        margin-top: -10%;
+        margin-left: 2%;
+        border-width: 0px 0px 0px 8px;
+        border-style: solid;
+        border-color: blueviolet;
+        padding-left: 1%;
+        display: none;
+    }
+
+    .divfantasy {
+        color: #aaa;
+        margin-left: 3.5%;
+        margin-top: 2%;
+        display: none;
+    }
+
+    .startimg {
+        margin-left: -2.5%;
+        margin-top: -7.5%;
+        width: 2%;
+    }
+
+    .rightfantasy1 {
+        margin-left: -4%;
+        height: 40px;
+        color: #aaa;
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+    }
+
+    .rightfantasy1:hover {
+        margin-left: -4%;
+        height: 40px;
+        color: white;
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+        background-color: rgba(0, 0, 255, 0.758);
+        width: 20%;
+        border-radius: 20%;
+    }
+
+    .rightfantasy2 {
+        margin-left: -4%;
+        height: 40px;
+        color: rgba(0, 0, 255, 0.844);
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+    }
+
+    .rightfantasy2:hover {
+        margin-left: -4%;
+        height: 40px;
+        color: white;
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+        background-color: rgba(0, 0, 255, 0.758);
+        width: 20%;
+        border-radius: 20%;
+    }
+
+    .imgplus {
+        margin-left: 1%;
+        width: 1%;
+    }
+
+    .imgplus1 {
+        margin-top: -6.5%;
+        margin-left: 74.6%;
+        width: 1%;
+    }
+
+    .hr {
+        width: 110%;
+        margin-left: -30.1%;
+        transform: rotate(90deg);
+        text-shadow: 2px 2px;
+        display: none;
+    }
+
+    .hr1 {
+        width: 80.9%;
+        margin-top: -1%;
+        margin-left: 19.1%;
+        display: none;
+    }
+
+    .picture {
+        padding-top: 0.5%;
+        width: 15%;
+        text-align: center;
+        background-color: black;
+        margin-top: 5%;
+        margin-left: -1%;
+        height: 40px;
+    }
+
+    .sanimg {
+        background-color: black;
+        margin-top: -1%;
+        margin-left: -38%;
+        height: 30px;
+        width: 30%;
+    }
+
+    .sanimg1 {
+        background-color: black;
+        margin-top: -1%;
+        margin-left: -60%;
+        height: 30px;
+        width: 20%;
+    }
+
+    .imgmoon {
+        position: absolute;
+        left: 13%;
+        background-color: black;
+        margin-top: -0.5%;
+        height: 40px;
+    }
+
+    .Hide {
+        margin-top: 0.4%;
+        margin-left: 5%;
+        color: #aaa;
+        display: none;
+    }
+
+    .imghide {
+        width: 1%;
+        margin-top: -5.6%;
+        margin-left: 3.7%;
+        display: none;
+    }
+
+    .platfrom {
+        padding-left: 2%;
+        border-width: 0px 0px 0px 5px;
+        border-style: solid;
+        border-color: blueviolet;
+        font-size: 200%;
+        margin-top: 2%;
+        margin-left: 10%;
+        color: white;
+    }
+
+    .platfrom1 {
+        font-size: 200%;
+        margin-top: 2%;
+        margin-left: 22%;
+        color: black;
+    }
+
+    .ADD {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        text-align: center;
+        border-radius: 30%;
+        width: 17.5%;
+        background-color: blue;
+        margin-top: -3%;
+        margin-left: 74%;
+        color: white;
+        display: none;
+    }
+
+    .img1 {
+        width: 1.5%;
+        margin-top: -10%;
+        margin-left: 93%;
+        color: white;
+        display: none;
+    }
+
+    .divblack {
+        margin-top: 4%;
+        margin-left: 42%;
+        width: 55%;
+        height: 600px;
+        background-color: rgba(0, 0, 0, 0.358);
+        display: none;
+    }
+
+    .new {
+        color: white;
+        position: absolute;
+        top: 15%;
+        left: 45%;
+    }
+
+    .text {
+        background-color: #aaa;
+        width: 180%;
+        height: 35px;
+    }
+
+    .text1 {
+        background-color: #aaa;
+        width: 180%;
+        height: 90px;
+    }
+
+    .text2 {
+        position: absolute;
+        top: 65%;
+        background-color: #aaa;
+        width: 180%;
+        height: 5%;
+    }
+
+    .imgplus2 {
+        margin-left: 55%;
+        margin-top: 10%;
+        width: 7%;
+    }
+
+    .Subtask {
+        text-align: center;
+        margin-top: -9%;
+        margin-left: 20%;
+        background-color: white;
+        color: blue;
+        width: 150%;
+        border-radius: 15%;
+    }
+
+    .createtaks {
+        width: 190%;
+        text-align: center;
+        margin-top: -14%;
+        margin-left: -12%;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 10%;
+        display: block;
+    }
+
+    .divblack1 {
+        margin-top: -0%;
+        margin-left: 42%;
+        width: 55%;
+        height: 600px;
+        background-color: rgba(0, 0, 0, 0.358);
+        display: none;
+    }
+
+    .research {
+        color: white;
+        position: absolute;
+        top: 15%;
+        left: 43%;
+        text-align: center;
+    }
+
+    .Weknow {
+        color: #aaa;
+        position: absolute;
+        top: 34%;
+        left: 44%;
+    }
+
+    .Subtasks {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 44%;
+    }
+
+    .research1 {
+        text-align: center;
+        height: 35px;
+        width: 42%;
+        padding-top: 8px;
+        color: #aaa;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        background-color: black;
+    }
+
+    .research2 {
+        text-align: center;
+        height: 35px;
+        width: 42%;
+        padding-top: 8px;
+        color: #aaa;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        background-color: black;
+    }
+
+    .research3 {
+        text-align: center;
+        color: white;
+        height: 55px;
+        width: 42%;
+        padding-top: 8px;
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        background-color: black;
+    }
+
+    .checkbox {
+        position: absolute;
+        top: 56%;
+        left: 48%;
+    }
+
+    .checkbox1 {
+        position: absolute;
+        top: 66%;
+        left: 48%;
+    }
+
+    .checkbox2 {
+        position: absolute;
+        top: 76%;
+        left: 48%;
+    }
+
+    .status {
+        position: absolute;
+        top: 77%;
+    }
+
+    .status1 {
+        color: white;
+        position: absolute;
+        top: 82.5%;
+        left: 45%;
+    }
+
+    .doing {
+        background-color: #aaa;
+        width: 25%;
+        position: absolute;
+        top: 88%;
+        left: 60%;
+    }
+
+    .input-submit {
+        border-radius: 30%;
+        color: white;
+        background-color: orange;
+        position: absolute;
+        top: 88%;
+        left: 52%;
+    }
+
+    .input-submit:hover {
+        color: red;
+        transition: 0.5s;
+    }
+
+    .color {
+        border-radius: 40%;
+        background-color: aqua;
+        height: 5px;
+        width: 1%;
+        position: absolute;
+        left: 21%;
+        top: 18%;
+    }
+
+    .color1 {
+        border-radius: 40%;
+        background-color: blueviolet;
+        height: 5px;
+        width: 1%;
+        position: absolute;
+        left: 52%;
+        top: 18%;
+    }
+
+    .color2 {
+        border-radius: 40%;
+        background-color: greenyellow;
+        height: 5px;
+        width: 1%;
+        position: absolute;
+        left: 79%;
+        top: 18%;
+        display: none;
+    }
+
+    .div-h3-p {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: 0%;
+        position: absolute;
+        top: 20%;
+    }
+
+    .div-h3-p1 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: 0%;
+        position: absolute;
+        top: 34%;
+    }
+
+    .div-h3-p2 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: 0%;
+        position: absolute;
+        top: 49%;
+    }
+
+    .div-h3-p3 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: 0%;
+        position: absolute;
+        top: 64%;
+    }
+
+    .div-h3-p4 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: 0%;
+        position: absolute;
+        top: 122%;
+        left: 50%;
+    }
+
+    .div-h3-p5 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: -23%;
+        position: absolute;
+        top: 80%;
+    }
+
+    .div-h3-p6 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: -23%;
+        position: absolute;
+        top: 95.5%;
+    }
+
+    .div-h3-p7 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: -23%;
+        position: absolute;
+        top: 111%;
+    }
+
+    .div-h3-p8 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: -23%;
+        position: absolute;
+        top: 125%;
+    }
+
+    .div-h3-p9 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        margin-left: -23%;
+        position: absolute;
+        top: 140%;
+    }
+
+    .div-h3-p10 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+    }
+
+    .div-h3-p11 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+    }
+
+    .div-h3-p12 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+    }
+
+    .div-h3-p13 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        position: absolute;
+        top: 62%;
+        left: 50%;
+    }
+
+    .div-h3-p14 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        position: absolute;
+        top: 79%;
+        left: 50%;
+    }
+
+    .div-h3-p15 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        position: absolute;
+        top: 94%;
+        left: 50%;
+    }
+
+    .div-h3-p16 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 45%;
+        position: absolute;
+        top: 108%;
+        left: 50%;
+    }
+
+    .Build {
+        font-size: 140%;
+        color: white;
+    }
+
+    .substasks {
+        color: #aaa;
+    }
+
+    .divdisplay1 {
+        margin-left: 23%;
+        display: block;
+    }
+
+    .divdisplay2 {
+        margin-left: 69%;
+        display: block;
+    }
+}
+
+/* هزا شاشة ال xs */
+
+@media (max-width: 500px) {
+    .body {
+        background-color: rgba(0, 0, 0, 0.767);
+    }
+
+    .body1 {
+        background-color: white;
+    }
+
+    .body2 {
+        background-color: rgba(0, 0, 0, 0.767);
+        display: none;
+    }
+
+    .kanban {
+        color: green;
+        margin-top: -10%;
+        margin-left: 2%;
+        border-width: 0px 0px 0px 8px;
+        border-style: solid;
+        border-color: blueviolet;
+        padding-left: 1%;
+        display: none;
+    }
+
+    .kanban1 {
+        color: black;
+        margin-top: -10%;
+        margin-left: 2%;
+        border-width: 0px 0px 0px 8px;
+        border-style: solid;
+        border-color: blueviolet;
+        padding-left: 1%;
+        display: none;
+    }
+
+    .divfantasy {
+        color: #aaa;
+        margin-left: 3.5%;
+        margin-top: 2%;
+        display: none;
+    }
+
+    .startimg {
+        margin-left: -2.5%;
+        margin-top: -7.5%;
+        width: 2%;
+    }
+
+    .rightfantasy1 {
+        margin-left: -4%;
+        height: 40px;
+        color: #aaa;
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+    }
+
+    .rightfantasy1:hover {
+        margin-left: -4%;
+        height: 40px;
+        color: white;
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+        background-color: rgba(0, 0, 255, 0.758);
+        width: 20%;
+        border-radius: 20%;
+    }
+
+    .rightfantasy2 {
+        margin-left: -4%;
+        height: 40px;
+        color: rgba(0, 0, 255, 0.844);
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+    }
+
+    .rightfantasy2:hover {
+        margin-left: -4%;
+        height: 40px;
+        color: white;
+        padding-top: 0.8%;
+        padding-left: 6.5%;
+        background-color: rgba(0, 0, 255, 0.758);
+        width: 20%;
+        border-radius: 20%;
+    }
+
+    .imgplus {
+        margin-left: 1%;
+        width: 1%;
+    }
+
+    .imgplus1 {
+        margin-top: -6.5%;
+        margin-left: 74.6%;
+        width: 1%;
+    }
+
+    .hr {
+        width: 110%;
+        margin-left: -30.1%;
+        transform: rotate(90deg);
+        text-shadow: 2px 2px;
+        display: none;
+    }
+
+    .hr1 {
+        width: 80.9%;
+        margin-top: -1%;
+        margin-left: 19.1%;
+        display: none;
+    }
+
+    .picture {
+        padding-top: 0.5%;
+        width: 15%;
+        text-align: center;
+        background-color: black;
+        margin-top: 5%;
+        margin-left: -1%;
+        height: 40px;
+    }
+
+    .sanimg {
+        background-color: black;
+        margin-top: -1%;
+        margin-left: -38%;
+        height: 30px;
+        width: 30%;
+    }
+
+    .sanimg1 {
+        background-color: black;
+        margin-top: -1%;
+        margin-left: -60%;
+        height: 30px;
+        width: 20%;
+    }
+
+    .imgmoon {
+        position: absolute;
+        left: 13%;
+        background-color: black;
+        margin-top: -0.5%;
+        height: 40px;
+    }
+
+    .Hide {
+        margin-top: 0.4%;
+        margin-left: 5%;
+        color: #aaa;
+        display: none;
+    }
+
+    .imghide {
+        width: 1%;
+        margin-top: -5.6%;
+        margin-left: 3.7%;
+        display: none;
+    }
+
+    .platfrom {
+        padding-left: 2%;
+        border-width: 0px 0px 0px 5px;
+        border-style: solid;
+        border-color: blueviolet;
+        font-size: 200%;
+        margin-top: 2%;
+        margin-left: 10%;
+        color: white;
+    }
+
+    .platfrom1 {
+        font-size: 200%;
+        margin-top: 2%;
+        margin-left: 22%;
+        color: black;
+    }
+
+    .ADD {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        text-align: center;
+        border-radius: 30%;
+        width: 17.5%;
+        background-color: blue;
+        margin-top: -3%;
+        margin-left: 74%;
+        color: white;
+        display: none;
+    }
+
+    .img1 {
+        width: 1.5%;
+        margin-top: -10%;
+        margin-left: 93%;
+        color: white;
+        display: none;
+    }
+
+    .divblack {
+        margin-top: 100%;
+        margin-left: 1%;
+        width: 99%;
+        height: 600px;
+        background-color: rgba(0, 0, 0, 0.358);
+        display: none;
+    }
+
+    .new {
+        color: white;
+        position: absolute;
+        top: 80%;
+        left: 5%;
+    }
+
+    .text {
+        background-color: #aaa;
+        width: 180%;
+        height: 35px;
+    }
+
+    .text1 {
+        background-color: #aaa;
+        width: 180%;
+        height: 90px;
+    }
+
+    .text2 {
+        position: absolute;
+        top: 65%;
+        background-color: #aaa;
+        width: 180%;
+        height: 5%;
+    }
+
+    .imgplus2 {
+        margin-left: 55%;
+        margin-top: 10%;
+        width: 7%;
+    }
+
+    .Subtask {
+        text-align: center;
+        margin-top: -9%;
+        margin-left: 20%;
+        background-color: white;
+        color: blue;
+        width: 150%;
+        border-radius: 15%;
+    }
+
+    .createtaks {
+        width: 190%;
+        text-align: center;
+        margin-top: -14%;
+        margin-left: -12%;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 10%;
+        display: block;
+    }
+
+    .divblack1 {
+        margin-top: 110%;
+        margin-left: 2%;
+        width: 95%;
+        height: 600px;
+        background-color: rgba(0, 0, 0, 0.358);
+        display: none;
+    }
+
+    .research {
+        color: white;
+        position: absolute;
+        top: 85%;
+        left: 7%;
+        text-align: center;
+    }
+
+    .Weknow {
+        color: #aaa;
+        position: absolute;
+        top: 105%;
+        left: 8%;
+        text-align: center;
+    }
+
+    .Subtasks {
+        color: white;
+        position: absolute;
+        top: 120%;
+        left: 10%;
+    }
+
+    .research1 {
+        text-align: center;
+        height: 35px;
+        width: 70%;
+        padding-top: 8px;
+        color: #aaa;
+        position: absolute;
+        top: 130%;
+        left: 18%;
+        background-color: black;
+    }
+
+    .research2 {
+        text-align: center;
+        height: 35px;
+        width: 70%;
+        padding-top: 8px;
+        color: #aaa;
+        position: absolute;
+        top: 140%;
+        left: 18%;
+        background-color: black;
+    }
+
+    .research3 {
+        text-align: center;
+        color: white;
+        height: 65px;
+        width: 70%;
+        padding-top: 8px;
+        color: white;
+        position: absolute;
+        top: 150%;
+        left: 18%;
+        background-color: black;
+    }
+
+    .checkbox {
+        position: absolute;
+        top: 131%;
+        left: 13%;
+    }
+
+    .checkbox1 {
+        position: absolute;
+        top: 141%;
+        left: 13%;
+    }
+
+    .checkbox2 {
+        position: absolute;
+        top: 152%;
+        left: 13%;
+    }
+
+    .status {
+        position: absolute;
+        top: 77%;
+    }
+
+    .status1 {
+        color: white;
+        position: absolute;
+        top: 160%;
+        left: 15%;
+    }
+
+    .doing {
+        background-color: #aaa;
+        width: 55%;
+        position: absolute;
+        top: 165%;
+        left: 20%;
+    }
+
+    .input-submit {
+        border-radius: 30%;
+        color: white;
+        background-color: orange;
+        position: absolute;
+        top: 165%;
+        left: 10%;
+    }
+
+    .input-submit:hover {
+        color: red;
+        transition: 0.5s;
+    }
+
+    .color {
+        border-radius: 40%;
+        background-color: aqua;
+        height: 5px;
+        width: 1%;
+        position: absolute;
+        left: 21%;
+        top: 18%;
+        display: none;
+    }
+
+    .color1 {
+        border-radius: 40%;
+        background-color: blueviolet;
+        height: 5px;
+        width: 1%;
+        position: absolute;
+        left: 45%;
+        top: 18%;
+    }
+
+    .color2 {
+        border-radius: 40%;
+        background-color: greenyellow;
+        height: 5px;
+        width: 1%;
+        position: absolute;
+        left: 69%;
+        top: 18%;
+        display: none;
+    }
+
+    .div-h3-p {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: 40%;
+        position: absolute;
+        top: 20%;
+    }
+
+    .div-h3-p1 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: 40%;
+        position: absolute;
+        top: 34%;
+    }
+
+    .div-h3-p2 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: 40%;
+        position: absolute;
+        top: 49%;
+    }
+
+    .div-h3-p3 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: 40%;
+        position: absolute;
+        top: 64%;
+    }
+
+    .div-h3-p4 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: -12%;
+        position: absolute;
+        top: 155%;
+    }
+
+    .div-h3-p5 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: 15%;
+        position: absolute;
+        top: 80%;       
+    }
+
+    .div-h3-p6 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: 15%;
+        position: absolute;
+        top: 95.5%;
+    }
+
+    .div-h3-p7 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: 15%;
+        position: absolute;
+        top: 111%;
+    }
+
+    .div-h3-p8 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: 15%;
+        position: absolute;
+        top: 125%;
+    }
+
+    .div-h3-p9 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        margin-left: 15%;
+        position: absolute;
+        top: 140%;
+    }
+
+    .div-h3-p10 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        position: absolute;
+        top: 171%;
+        left: 40%;
+    }
+
+    .div-h3-p11 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        position: absolute;
+        top: 187%;
+        left: 40%;
+    }
+
+    .div-h3-p12 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        position: absolute;
+        top: 204%;
+        left: 40%;
+    }
+
+    .div-h3-p13 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        position: absolute;
+        top: 220%;
+        left: 40%;
+    }
+
+    .div-h3-p14 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        position: absolute;
+        top: 248%;
+        left: 40%;
+    }
+
+    .div-h3-p15 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        position: absolute;
+        top: 262%;
+        left: 40%;
+    }
+
+    .div-h3-p16 {
+        border-radius: 15%;
+        background-color: rgba(0, 0, 255, 0.136);
+        height: 95px;
+        width: 55%;
+        position: absolute;
+        top: 277%;
+        left: 40%;
+    }
+
+    .Build {
+        font-size: 140%;
+        color: white;
+    }
+
+    .substasks {
+        color: #aaa;
+    }
+
+    .divdisplay1 {
+        margin-left: 23%;
+        display: block;
+    }
+
+    .divdisplay2 {
+        margin-left: 69%;
+        display: block;
+    }
+}
